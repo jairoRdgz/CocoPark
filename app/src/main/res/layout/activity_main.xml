@@ -4,15 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3F6FF"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circulo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="64dp"
+        android:text="CocoPark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.674"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="235dp"
+        android:layout_height="185dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/background_1" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="245dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="#567DF4"
+        android:text="Login"
+        android:visibility="visible"
+        app:cornerRadius="80px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="245dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="#567DF4"
+        android:text="Register"
+        android:visibility="visible"
+        app:cornerRadius="80px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
