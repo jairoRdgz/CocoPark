@@ -25,14 +25,14 @@
         android:text="CocoPark"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="235dp"
-        android:layout_height="185dp"
+        android:layout_width="203dp"
+        android:layout_height="161dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/background_1" />
@@ -54,7 +54,7 @@
         android:id="@+id/registerBtn"
         android:layout_width="245dp"
         android:layout_height="66dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#567DF4"
         android:text="Register"
         android:visibility="visible"
