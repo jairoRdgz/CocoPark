@@ -48,7 +48,7 @@
         android:width="300dp"
         android:background="@drawable/rectangule"
         android:ems="10"
-        android:hint="+12345678"
+        android:hint="example@gmail.com"
         android:inputType="textPersonName"
         android:textColor="#677191"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +63,7 @@
         app:layout_constraintStart_toStartOf="@+id/emailBox"
         app:layout_constraintTop_toTopOf="@+id/emailBox"
         app:layout_constraintVertical_bias="0.481"
-        app:srcCompat="@drawable/smartphone_line" />
+        app:srcCompat="@drawable/mail" />
 
     <EditText
         android:id="@+id/passBox"
