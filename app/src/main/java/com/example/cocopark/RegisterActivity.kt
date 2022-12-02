@@ -1,5 +1,6 @@
 package com.example.cocopark
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
@@ -12,5 +13,10 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.createBtn.setOnClickListener{
+            startActivity(Intent(this, SuccesfullActivity::class.java));
+            println("Presiono crear");
+        }
     }
 }

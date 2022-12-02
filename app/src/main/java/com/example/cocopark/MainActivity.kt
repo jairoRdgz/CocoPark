@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.registerBtn.setOnClickListener{
-            //Intent(this, )
+            startActivity(Intent(this, RegisterActivity::class.java));
             println("Presiono registrar");
         }
     }
